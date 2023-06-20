@@ -82,6 +82,9 @@ class ManualControl:
 
 if __name__ == "__main__":
     import argparse
+    from minigrid import register_minigrid_envs
+
+    register_minigrid_envs()
 
     parser = argparse.ArgumentParser()
     parser.add_argument(
