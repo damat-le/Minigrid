@@ -188,6 +188,8 @@ class Grid:
         # Highlight the cell if needed
         if highlight:
             highlight_img(img)
+        else:
+            img[:,:,:] = 0 # this makes not visible cells black
 
         # Downsample the image to perform supersampling/anti-aliasing
         img = downsample(img, subdivs)
