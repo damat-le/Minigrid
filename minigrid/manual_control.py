@@ -72,6 +72,7 @@ class ManualControl:
             "tab": Actions.pickup,
             "left shift": Actions.drop,
             "enter": Actions.done,
+            "c": Actions.collect,
         }
         if key in key_to_action.keys():
             action = key_to_action[key]

@@ -18,3 +18,6 @@ class Actions(IntEnum):
 
     # Done completing task
     done = 6
+
+    # collect_obj
+    collect = 7

@@ -556,6 +556,11 @@ class MiniGridEnv(gym.Env):
                     self.carrying.cur_pos = np.array([-1, -1])
                     self.grid.set(fwd_pos[0], fwd_pos[1], None)
 
+        # Collect an object
+        elif action == self.actions.collect:
+            if fwd_cell and fwd_cell.can_pickup():
+                self.grid.set(fwd_pos[0], fwd_pos[1], None)
+
         # Drop an object
         elif action == self.actions.drop:
             if not fwd_cell and self.carrying:
