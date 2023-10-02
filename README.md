@@ -1,9 +1,9 @@
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 <p align="center">
     <img src="https://raw.githubusercontent.com/Farama-Foundation/Minigrid/master/minigrid-text.png" width="500px"/>
 </p>
-
-[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 <p align="center">
   <img src="figures/door-key-curriculum.gif" width=200 alt="Figure Door Key Curriculum">
@@ -15,6 +15,7 @@ The documentation website is at [minigrid.farama.org](https://minigrid.farama.or
 
 Note that the library was previously known as gym-minigrid and it has been referenced in several publications. If your publication uses the Minigrid library and you wish for it to be included in the [list of publications](https://minigrid.farama.org/content/publications/), please create an issue in the [GitHub repository](https://github.com/Farama-Foundation/Minigrid/issues/new/choose).
 
+See the [Project Roadmap](https://github.com/Farama-Foundation/Minigrid/issues/363) for details regarding the long-term plans.
 
 # Installation
 
@@ -41,18 +42,19 @@ The original `gym-minigrid` environments were created as part of work done at [M
 
 To cite this project please use:
 
-```
-@software{minigrid,
-  author = {Chevalier-Boisvert, Maxime and Willems, Lucas and Pal, Suman},
-  title = {Minimalistic Gridworld Environment for Gymnasium},
-  url = {https://github.com/Farama-Foundation/Minigrid},
-  year = {2018},
+```bibtex
+@article{MinigridMiniworld23,
+  author       = {Maxime Chevalier-Boisvert and Bolun Dai and Mark Towers and Rodrigo de Lazcano and Lucas Willems and Salem Lahlou and Suman Pal and Pablo Samuel Castro and Jordan Terry},
+  title        = {Minigrid \& Miniworld: Modular \& Customizable Reinforcement Learning Environments for Goal-Oriented Tasks},
+  journal      = {CoRR},
+  volume       = {abs/2306.13831},
+  year         = {2023},
 }
 ```
 
 If using the `BabyAI` environments please also cite the following:
 
-```
+```bibtex
 @article{chevalier2018babyai,
   title={Babyai: A platform to study the sample efficiency of grounded language learning},
   author={Chevalier-Boisvert, Maxime and Bahdanau, Dzmitry and Lahlou, Salem and Willems, Lucas and Saharia, Chitwan and Nguyen, Thien Huu and Bengio, Yoshua},
